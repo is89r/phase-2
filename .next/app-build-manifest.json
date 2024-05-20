@@ -1,0 +1,52 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/login/seller/[sellerId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/login/seller/[sellerId]/page.css",
+      "static/chunks/app/login/seller/[sellerId]/page.js"
+    ],
+    "/login/user/[userId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/login/user/[userId]/page.css",
+      "static/chunks/app/login/user/[userId]/page.js"
+    ],
+    "/login/user/[userId]/[bookId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/login/user/[userId]/[bookId]/page.css",
+      "static/chunks/app/login/user/[userId]/[bookId]/page.js"
+    ],
+    "/login/seller/[sellerId]/[bookId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/login/seller/[sellerId]/[bookId]/page.css",
+      "static/chunks/app/login/seller/[sellerId]/[bookId]/page.js"
+    ],
+    "/login/seller/[sellerId]/addbook/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/login/seller/[sellerId]/addbook/page.css",
+      "static/chunks/app/login/seller/[sellerId]/addbook/page.js"
+    ],
+    "/login/user/[userId]/stats/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/login/user/[userId]/stats/page.css",
+      "static/chunks/app/login/user/[userId]/stats/page.js"
+    ]
+  }
+}

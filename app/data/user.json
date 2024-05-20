@@ -1,0 +1,18 @@
+[
+    {
+        "id": 9,
+        "username": "user1",
+        "password": "pass1",
+        "balance":200,
+        "type":"customer",
+        "shippingaddress":""
+    },
+    {
+        "id": 10,
+        "username": "user2",
+        "password": "pass2",
+        "balance":100,
+        "type":"customer",
+        "shippingaddress":""
+    }
+]

@@ -1,0 +1,392 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+#message{
+  color: red;
+  font-size: 12px;
+}
+
+.bodyDiv{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #7d2ae8;
+  padding: 30px;
+}
+.container{
+  position: relative;
+  max-width: 850px;
+  width: 100%;
+  background: #fff;
+  padding: 40px 30px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  perspective: 2700px;
+}
+.container .cover{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 50%;
+  z-index: 98;
+  transition: all 1s ease;
+  transform-origin: left;
+  transform-style: preserve-3d;
+}
+.container #flip:checked ~ .cover{
+  transform: rotateY(-180deg);
+}
+ .container .cover .front,
+ .container .cover .back{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.cover .back{
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+.container .cover::before,
+.container .cover::after{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #7d2ae8;
+  opacity: 0.5;
+  z-index: 12;
+}
+.container .cover::after{
+  opacity: 0.3;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+.container .cover img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 10;
+}
+.container .cover .text{
+  position: absolute;
+  z-index: 130;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cover .text .text1,
+.cover .text .text2{
+  font-size: 26px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+.cover .text .text2{
+  font-size: 15px;
+  font-weight: 500;
+}
+.container .forms{
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+.container .formcontent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.formcontent .loginform,
+.formcontent .signupform{
+  width: calc(100% / 2 - 25px);
+}
+.forms .formcontent .title{
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+}
+.forms .formcontent .title:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 25px;
+  background: #7d2ae8;
+}
+.forms .signupform  .title:before{
+  width: 20px;
+}
+.forms .formcontent .inputboxes{
+  margin-top: 30px;
+}
+.forms .formcontent .inputbox{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+.formcontent .inputbox input, .input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.formcontent .inputbox .input:focus,
+.formcontent .inputbox .input:valid{
+  border-color: #7d2ae8;
+}
+.formcontent .inputbox i{
+  position: absolute;
+  color: #7d2ae8;
+  font-size: 17px;
+}
+.forms .formcontent .text{
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+.forms .formcontent .text a{
+  text-decoration: none;
+}
+.forms .formcontent .text a:hover{
+  text-decoration: underline;
+}
+.forms .formcontent .button{
+  color: #fff;
+  margin-top: 40px;
+}
+.forms .formcontent .button .input {
+  color: #fff;
+  background: #7d2ae8;
+  border-radius: 6px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.forms .formcontent .button .input{
+  background: #5b13b9;
+}
+.forms .formcontent label{
+  color: #5b13b9;
+  cursor: pointer;
+}
+.forms .formcontent label:hover{
+  text-decoration: underline;
+}
+.forms .formcontent .logintext,
+.forms .formcontent .signuptext{
+  text-align: center;
+  margin-top: 25px;
+}
+.container #flip{
+  display: none;
+}
+.titl{
+  text-align: center;
+  color: #8e4ee2;
+  border-style:solid;
+  padding: 0.5rem;
+  font-size: 35px;
+}
+
+.data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  background: #8e4ee2;
+  border-style:solid;
+}
+
+/*  */
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #7d2ae8;
+  color: white;
+  align-items: center;
+  font-size: 24px;
+  padding:1rem;
+}
+
+.head{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo{
+  padding: 1.5rem;
+}
+
+.pagelayout{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.pHistory{
+  background-color: #D9D9D9 ;
+  
+  color: #7d2ae8;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  margin: 1rem;
+  display:flex;
+  flex-direction: column;
+}
+
+.booksearch{
+  padding: 1.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.inputs{
+  width:100%;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin:1rem;
+  border-color: #e6daf5;
+  border-style:solid;
+}
+
+.searchbtn, .purchasebtn, .backbtn{
+  padding: 1rem;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: #e6daf5;
+  color: #7d2ae8;
+}
+
+.booklist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.booklist .card {
+  box-shadow: #D9D9D9;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.booklist .card img {
+  margin:1rem 0rem;
+  width: 50%;
+  height: 50%;
+  flex: 1;
+}
+
+.details{
+  display: flex;
+  flex-direction: row;
+  margin:1rem;
+}
+
+.bookinfo{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}   
+
+#title{
+  font-size: 2rem;
+}
+
+.buttons{
+  display: flex;
+  gap: 1rem;
+}
+
+.quantity, .ship{
+  display: flex;
+  align-items: center;
+
+}
+
+.ship input{
+  width:100%;
+}
+.login{
+  display:flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.add{
+  display:flex;
+  flex-direction: column;
+  margin: 5rem;
+  gap: 1rem;
+  justify-content: center;
+}
+/*  */
+@media (max-width: 730px) {
+  .container .cover{
+    display: none;
+  }
+  .formcontent .loginform,
+  .formcontent .signupform{
+    width: 100%;
+  }
+  .formcontent .signupform{
+    display: none;
+  }
+  .container #flip:checked ~ .forms .signupform{
+    display: block;
+  }
+  .container #flip:checked ~ .forms .loginform{
+    display: none;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .details{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .main{
+    display:flex;
+    flex-direction:column;
+  }
+
+}

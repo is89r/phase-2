@@ -1,0 +1,212 @@
+[
+    {
+        "id": 123,
+        "seller":"seller",
+        "quantity":50,
+        "title": "Animal Farm",
+        "genre": "Contemporary Literature & Fiction",
+        "author": "George Orwell",
+        "price": 14.99,
+        "description": "A farm is taken over by its overworked, mistreated animals. With flaming idealism and stirring slogans, they set out to create a paradise of progress, justice, and equality. Thus the stage is set for one of the most telling satiric fables ever penned—a razor-edged fairy tale for grown-ups that records the evolution from revolution against tyranny to a totalitarianism just as terrible.",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/f/fb/Animal_Farm_-_1st_edition.jpg"
+    },
+    {
+        "id": 124,
+        "seller":"seller",
+        "quantity":50,
+        "title": "The Great Gatsby",
+        "genre": "Classic Literature",
+        "author": "F. Scott Fitzgerald",
+        "price": 16.99,
+        "description": "The novel follows a cast of characters living in the fictional towns of West Egg and East Egg on prosperous Long Island in the summer of 1922. The plot revolves primarily around the young and mysterious millionaire Jay Gatsby and his bizarre passion and obsession with the lovely former debutante Daisy Buchanan. The Great Gatsby, considered Fitzgerald's magnum opus, explores themes of decadence, idealism, resistance to change, social upheaval, and excess, painting a portrait of the Roaring Twenties that has been described as a cautionary tale about the American Dream.",
+        "img":"https://m.media-amazon.com/images/I/71uyfT7RfFL._SY522_.jpg"
+    },
+    {
+        "id": 125,
+        "seller":"seller",
+        "quantity":50,
+        "title": "Pride and Prejudice",
+        "genre": "Classic Literature & Romance",
+        "author": "Jane Austen",
+        "price": 15.99,
+        "description": "Though her sisters are keen on finding men to marry, Elizabeth Bennet would rather wait for someone she loves - certainly not someone like Mr. Fitzwilliam Darcy, whom she finds to be smug and judgmental, in contrast to the charming George Wickham. But soon Elizabeth learns that her first impressions may not have been correct, and the quiet, genteel Mr. Darcy might be her true love after all.",
+        "img":"https://m.media-amazon.com/images/I/81a3sr-RgdL._SY522_.jpg"
+    },
+    {
+        "id": 126,
+        "seller":"seller",
+        "quantity":50,
+        "title": "The Alchemist",
+        "genre": "Classic Literature & Fiction",
+        "author": "Paulo Coelho",
+        "price": 16.99,
+        "description": "Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts, of recognizing opportunity and learning to read the omens strewn along life's path, and, most importantly, to follow our dreams.",
+        "img":"https://m.media-amazon.com/images/I/81FPzmB5fgL._SY522_.jpg"
+    },
+    {
+        "id": 127,
+        "quantity":50,
+        "seller":"seller",
+        "title": "The Fellowship of the Ring (The Lord of the Rings, Part 1)",
+        "genre": "Fantasy & Fiction",
+        "author": "J.R.R Tolkien",
+        "price": 14.99,
+        "description": "The dark, fearsome Ringwraiths are searching for a Hobbit. Frodo Baggins knows that they are seeking him and the Ring he bears—the Ring of Power that will enable evil Sauron to destroy all that is good in Middle-earth. Now it is up to Frodo and his faithful servant, Sam, with a small band of companions, to carry the Ring to the one place it can be destroyed: Mount Doom, in the very center of Sauron’s realm",
+        "img":"https://m.media-amazon.com/images/I/A1Nv8Uz0fKL._SY522_.jpg"
+    },
+    {
+        "id": 128,
+        "quantity":50,
+        "seller":"seller",
+        "title": "Atomic Habits",
+        "genre": "Social Psychology",
+        "author": "James Clear",
+        "price": 13.99,
+        "description": "No matter your goals, Atomic Habits offers a proven framework for improving - every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.",
+        "img":"https://m.media-amazon.com/images/I/513Y5o-DYtL.jpg"
+    },
+    {
+        "id": 129,
+        "quantity":50,
+        "seller":"seller",
+        "title": "To Kill a Mockingbird",
+        "genre": "Classic Literature & Fiction",
+        "author": "Harper Lee",
+        "price": 16.99,
+        "description": "One of the most cherished stories of all time, To Kill a Mockingbird has been translated into more than forty languages, sold more than forty million copies worldwide, served as the basis for an enormously popular motion picture, and was voted one of the best novels of the twentieth century by librarians across the country. A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice, it views a world of great beauty and savage inequities through the eyes of a young girl, as her father—a crusading local lawyer—risks everything to defend a black man unjustly accused of a terrible crime.",
+        "img":"https://m.media-amazon.com/images/I/81aY1lxk+9L._SL1500_.jpg"
+    },
+    {
+        "id": 130,
+        "quantity":50,
+        "seller":"seller",
+        "title": "Psychology of Money",
+        "genre": "Budgeting & Money Management",
+        "author": "Morgan Housel",
+        "price": 10.99,
+        "description": "Money - investing, personal finance, and business decisions - is typically taught as a math-based field, where data and formulas tell us exactly what to do. But in the real world people don’t make financial decisions on a spreadsheet. They make them at the dinner table, or in a meeting room, where personal history, your own unique view of the world, ego, pride, marketing, and odd incentives are scrambled together.",
+        "img":"https://m.media-amazon.com/images/I/51JemODRExL.jpg"
+    },
+    {
+        "id": 131,
+        "quantity":50,
+        "seller":"seller",
+        "title": "Dune",
+        "genre": "Fantasy",
+        "author": "Frank Herbert",
+        "price": 14.99,
+        "description": "Set on the desert planet Arrakis, Dune is the story of Paul Atreides—who would become known as Muad'Dib—and of a great family's ambition to bring to fruition humankind's most ancient and unattainable dream.",
+        "img":"https://m.media-amazon.com/images/I/81TmnPZWb0L._SY522_.jpg"
+    },
+    {
+        "id": 132,
+        "quantity":50,
+        "seller":"seller",
+        "title": "Thinking, Fast and Slow",
+        "genre": "Business Decision Making",
+        "author": "Daniel Kahneman",
+        "price": 12.99,
+        "description": "Engaging the reader in a lively conversation about how we think, Kahneman reveals where we can and cannot trust our intuitions and how we can tap into the benefits of slow thinking. He offers practical and enlightening insights into how choices are made in both our business and our personal lives―and how we can use different techniques to guard against the mental glitches that often get us into trouble. Topping bestseller lists for almost ten years, Thinking, Fast and Slow is a contemporary classic, an essential book that has changed the lives of millions of readers.",
+        "img":"https://m.media-amazon.com/images/I/61fdrEuPJwL._SY522_.jpg"
+    },
+    {
+        "id": 133,
+        "quantity":50,
+        "seller":"seller",
+        "title": "1984",
+        "genre": "Classic Literature",
+        "author": "George Orwell",
+        "price": 15.99,
+        "description": "A startling and haunting novel, 1984 creates an imaginary world that is completely convincing from start to finish. No one can deny the novel’s hold on the imaginations of whole generations, or the power of its admonitions—a power that seems to grow, not lessen, with the passage of time.",
+        "img":"https://m.media-amazon.com/images/I/71rpa1-kyvL._SY522_.jpg"
+    },
+    {
+        "id": 134,
+        "quantity":50,
+        "seller":"seller",
+        "title": "The Laws of Human Nature",
+        "genre": "Self Help",
+        "author": "Robert Greene",
+        "price": 17.99,
+        "description": "Robert Greene is a master guide for millions of readers, distilling ancient wisdom and philosophy into essential texts for seekers of power, understanding and mastery. Now he turns to the most important subject of all - understanding people's drives and motivations, even when they are unconscious of them themselves.",
+        "img":"https://m.media-amazon.com/images/I/61qfSP-nlXL._SL1500_.jpg"
+    },
+    {
+        "id": 135,
+        "quantity":50,
+        "seller":"seller",
+        "title": "The Handmaid's Tale",
+        "genre": "Fiction",
+        "author": "Margaret Atwood",
+        "price": 14.99,
+        "description": "In Margaret Atwood’s dystopian future, environmental disasters and declining birthrates have led to a Second American Civil War. The result is the rise of the Republic of Gilead, a totalitarian regime that enforces rigid social roles and enslaves the few remaining fertile women. Offred is one of these, a Handmaid bound to produce children for one of Gilead’s commanders. Deprived of her husband, her child, her freedom, and even her own name, Offred clings to her memories and her will to survive. At once a scathing satire, an ominous warning, and a tour de force of narrative suspense, The Handmaid’s Tale is a modern classic.",
+        "img":"https://m.media-amazon.com/images/I/61su39k8NUL._SY522_.jpg"
+    },
+    {
+        "id": 136,
+        "quantity":50,
+        "seller":"seller",
+        "title": "Lord of the Flies",
+        "genre": "Classic Literature & Fiction",
+        "author": "Willian Golding",
+        "price": 15.99,
+        "description": "At the dawn of the next world war, a plane crashes on an uncharted island, stranding a group of schoolboys. At first, with no adult supervision, their freedom is something to celebrate. This far from civilization they can do anything they want. Anything. But as order collapses, as strange howls echo in the night, as terror begins its reign, the hope of adventure seems as far removed from reality as the hope of being rescued.",
+        "img":"https://m.media-amazon.com/images/I/81WUAoL-wFL._SL1500_.jpg"
+    },
+    {
+        "id": 137,
+        "quantity":50,
+        "seller":"seller",
+        "title": "The Hound of the Baskervilles ",
+        "genre": "Detective Mystery",
+        "author": "Sir Arthur Conan Doyle",
+        "price": 13.99,
+        "description": "At Baskerville Hall on the grim moors of Devonshire, a legendary curse has apparently claimed one more victim. Sir Charles Baskerville has been found dead. There are no signs of violence, but his face is hideously distorted with terror. Years earlier, a hound-like beast with blazing eyes and dripping jaws was reported to have torn out the throat of Hugo Baskerville. Has the spectral destroyer struck again? More important, is Sir Henry Baskerville, younger heir to the estate, now in danger?",
+        "img":"https://m.media-amazon.com/images/I/71okOUr-e4L._SL1500_.jpg"
+    },
+    {
+        "id": 138,
+        "quantity":50,
+        "seller":"seller",
+        "title": "Outliers: The Story of Success",
+        "genre": "Nonfiction",
+        "author": "Malcom Gladwell",
+        "price": 11.90,
+        "description": "In this stunning new book, Malcolm Gladwell takes us on an intellectual journey through the world of outliers--the best and the brightest, the most famous and the most successful. He asks the question: what makes high-achievers different?",
+        "img":"https://m.media-amazon.com/images/I/91lYcUJ8JsL._SL1500_.jpg"
+    },
+    {
+        "id": 139,
+        "quantity":50,
+        "seller":"seller2",
+        "title": "How Google Works",
+        "genre": "Computer & Technology",
+        "author": "Eric Schmidt & Jonathan Rosenberg",
+        "price": 16.25,
+        "description": "Google Executive Chairman and ex-CEO Eric Schmidt and former SVP of Products Jonathan Rosenberg came to Google over a decade ago as proven technology executives. At the time, the company was already well-known for doing things differently, reflecting the visionary-and frequently contrarian-principles of founders Larry Page and Sergey Brin. If Eric and Jonathan were going to succeed, they realized they would have to relearn everything they thought they knew about management and business.",
+        "img":"https://m.media-amazon.com/images/I/71bzD35bKqL._SL1500_.jpg"
+    },
+    {
+        "id": 140,
+        "quantity":50,
+        "seller":"seller2",
+        "title": "The Adventures of Huckleberry Finn",
+        "genre": "Classic Literature & Fiction",
+        "author": "Mark Twain",
+        "price": 10.95,
+        "description": "After he and his good buddy Tom Sawyer had uncovered a small fortune, Huckleberry Finn finds himself restrained by the demands of an overbearing guardian. Never one to be confined by the proprieties of society, Huck bolts from this dull life in pursuit of a more exciting and mischievous life.",
+        "img":"https://m.media-amazon.com/images/I/61uZMVayn2L._SL1500_.jpg"
+    },
+    {
+        "id": 141,
+        "quantity":50,
+        "seller":"seller2",
+        "title": "Think and Grow Rich",
+        "genre": "Budgeting & Money Management",
+        "author": "Napoleon Hill",
+        "price": 14.65,
+        "description": "Money and material things are essential for freedom of body and mind, but there are some who will feel that the greatest of all riches can be evaluated only in terms of lasting friendships, loving family relationships, understanding between business associates, and introspective harmony which brings one true peace of mind! All who read, understand, and apply this philosophy will be better prepared to attract and enjoy these spiritual values.",
+        "img":"https://m.media-amazon.com/images/I/81Y2ySn-++L._SY522_.jpg"
+    }
+
+]

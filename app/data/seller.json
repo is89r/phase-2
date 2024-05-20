@@ -1,0 +1,18 @@
+[
+    {
+        "id": 12,
+        "username": "seller",
+        "password": "pass",
+        "bankAccount":1234,
+        "type": "seller",
+        "companyName":"company1"
+    },
+    {
+        "id": 13,
+        "username": "seller2",
+        "password": "pass2",
+        "bankAccount":5678,
+        "type": "seller",
+        "companyName":"company2"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "username": "user1",
+        "password": "pass1",
+        "balance":200,
+        "type":"customer",
+        "name":"customer1",
+        "surname":"lastname",
+        "shippingaddress":""
+    },
+    {
+        "username": "user2",
+        "password": "pass2",
+        "balance":100,
+        "type":"customer",
+        "name":"customer2",
+        "surname":"lastname2",
+        "shippingaddress":""
+    },
+    {
+        "username": "admin",
+        "password": "secret",
+        "type": "admin"
+    },
+    {
+        "username": "seller",
+        "password": "pass",
+        "bankAccount":1234,
+        "companyName":"company1",
+        "type": "seller"
+    },
+    {
+        "username": "seller2",
+        "password": "pass2",
+        "bankAccount":5678,
+        "companyName":"company2",
+        "type": "seller"
+    }
+]
